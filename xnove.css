@@ -1,0 +1,52 @@
+body {
+    background-color: #7861fa;
+    color: rgb(114, 0, 114);
+    letter-spacing: 0.1rem;
+}
+
+header{
+    /*Largura*/
+    width: 100%;
+    /*Altura*/
+    height: 45px;
+    background-color: #b84ee2;
+    text-align: center; /*Alinhar- Horizontal texto*/
+    padding-top: 6px; /*Prenchimento*/
+    /*Sombra do box (caixa)*/
+    box-shadow: 0 5px rgb(94, 83, 255);
+}
+
+header h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+}
+
+article{
+    text-align: center;
+}
+article h2{
+    color: #5c0074;
+    background-color: #c01ca57a;
+    text-shadow: 1px 1px 10px #fafafa,
+                -1px -1px 10px #fafafa;
+}
+
+article ul li{
+list-style: none;/*Bolinhas da lista*/
+font-style: italic;
+}
+
+.cor-diferente{
+    color: #4407d4;
+    font-style: normal;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid  #610059; /* Espessura, tipo, cor*/
+    padding-top: 30px;
+    text-shadow: 1px 1px 10px #fafafa,
+                -1px -1px 10px #fafafa;
+}
